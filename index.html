@@ -21,9 +21,15 @@
     <section>
       <div class="container mx-auto">
         <!-- mobile device bg -->
-        <div class="backgrounds-mobile relative">
+        <div class="backgrounds-mobile relative md:hidden">
           <img src="./images/bg-pattern-top-mobile.svg" alt="pattern for top mobile devices" class="absolute object-cover" />
           <img src="./images/bg-pattern-bottom-mobile.svg" alt="pattern for bottom mobile devices" class="absolute left-3 top-96 scale-x-105" />
+        </div>
+
+        <!-- desktop device bg -->
+        <div class="backgrounds-desktop relative hidden md:block">
+          <img src="./images/bg-pattern-top-desktop.svg" alt="pattern for top desktop devices" class="absolute object-cover" />
+          <img src="./images/bg-pattern-bottom-desktop.svg" alt="pattern for bottom desktop devices" class="absolute left-96 top-96 scale-x-125" />
         </div>
 
         <!-- text -->
