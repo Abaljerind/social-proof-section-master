@@ -569,6 +569,11 @@ video {
   margin-right: auto;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -617,6 +622,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -657,6 +666,14 @@ video {
 .bg-veryDarkMagenta {
   --tw-bg-opacity: 1;
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
+}
+
+.bg-patternTopMobile {
+  background-image: url(/images/bg-pattern-top-mobile.svg);
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -748,4 +765,60 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:left-0 {
+    left: 0px;
+  }
+
+  .sm\:top-0 {
+    top: 0px;
+  }
+
+  .sm\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .sm\:right-0 {
+    right: 0px;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
+  .md\:bg-patternTopDesktop {
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+  }
+
+  .md\:bg-patternBottomDesktop {
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+  }
+
+  .md\:bg-right-bottom {
+    background-position: right bottom;
+  }
+
+  .md\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
 }
