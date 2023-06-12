@@ -1,6 +1,6 @@
 # Frontend Mentor - Social proof section solution
 
-This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -51,9 +51,11 @@ Using these utility code, i can use background-image and the others utility with
 ```html
 <h1>Some HTML code + Tailwind CSS utility I'm proud of</h1>
 ```
+
 ```html
 <body class="bg-patternTopMobile bg-no-repeat lg:ml-0 lg:h-screen lg:bg-patternBottomDesktop lg:bg-right-bottom">
-  <section class="sm:mx-auto sm:w-96 lg:mx-0 lg:w-full lg:bg-patternTopDesktop lg:bg-no-repeat">
+  <section class="sm:mx-auto sm:w-96 lg:mx-0 lg:w-full lg:bg-patternTopDesktop lg:bg-no-repeat"></section>
+</body>
 ```
 
 ### Useful resources
@@ -66,9 +68,6 @@ Using these utility code, i can use background-image and the others utility with
 - Website - [AbalJerind](https://social-proof-section-master-git-main-abaljerind.vercel.app/)
 - Frontend Mentor - [@Abaljerind](https://www.frontendmentor.io/profile/Abaljerind)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 I want to thank me for believing in me, I want to thank me for doing all this hard work. I wanna thank me for having no days off. I wanna thank me for never quitting. I wanna thank me for being me at all times.
-
